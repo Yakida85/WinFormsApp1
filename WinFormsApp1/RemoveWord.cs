@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class Form7 : Form
+    public partial class RemoveWord : Form
     {
-        public Form7()
+        public RemoveWord()
         {
             InitializeComponent();
         }

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class Form5 : Form
+    public partial class CountWords : Form
     {
-        public Form5()
+        public CountWords()
         {
             InitializeComponent();
         }

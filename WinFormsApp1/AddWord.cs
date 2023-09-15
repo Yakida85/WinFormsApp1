@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class Form4 : Form
+    public partial class AddWord : Form
     {
-        public Form4()
+        public AddWord()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Form5
+    partial class CountWords
     {
         /// <summary>
         /// Required designer variable.

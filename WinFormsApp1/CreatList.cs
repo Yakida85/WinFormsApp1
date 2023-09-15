@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class Form3 : Form
+    public partial class CreatList : Form
     {
-        public Form3()
+        public CreatList()
         {
             InitializeComponent();
         }

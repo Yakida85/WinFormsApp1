@@ -30,7 +30,7 @@
             Boolean stop = false;
             while (stop != true)
             {
-                Console.WriteLine("Enter translation sparated by (,):");
+                Console.WriteLine("Enter translation sparated by (;):");
                 String input = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(input))
                 {
@@ -38,7 +38,7 @@
                 }
                 else
                 {
-                    input = input.Replace(',', ';');
+                    //input = input.Replace(',', ';');
                     string[] inputSplit = input.Split(';');
                     wordList.Add(inputSplit);
                     wordList.Save();
@@ -114,10 +114,10 @@
                             Console.WriteLine("Enter List name:");
                             String Listname = Console.ReadLine();
                             WordList loadedList = WordList.LoadList(Listname);
-                            if (loadedList.Count() != 0)
-                            {
                                 addWord(loadedList);
-                            }
+                            //if (loadedList.Count() != 0)
+                            //{
+                            //}
                             break;
                         case 4:
                             Console.WriteLine("Enter List name:");
@@ -135,7 +135,7 @@
                             break;
                         case 5:
                             Console.WriteLine("Enter List name:");
-                            String Listname5 = Console.ReadLine();
+                            String Listname5 = Console.ReadLine();  
                             WordList loadedListSort = WordList.LoadList(Listname5);
                             Console.WriteLine("Sort by language: ");
                             String Sortby = Console.ReadLine();
@@ -173,6 +173,7 @@
                 }
                 catch (Exception ioex)
                 {
+                    Console.WriteLine(ioex.Message);
                     Console.WriteLine("Please Enter correct input/information! ");
                 }
 

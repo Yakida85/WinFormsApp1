@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Form3
+    partial class CreatList
     {
         /// <summary>
         /// Required designer variable.

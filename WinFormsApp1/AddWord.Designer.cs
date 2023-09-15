@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Form4
+    partial class AddWord
     {
         /// <summary>
         /// Required designer variable.
